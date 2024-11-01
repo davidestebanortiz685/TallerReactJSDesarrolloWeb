@@ -1,0 +1,82 @@
+.edit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+.edit-box {
+    background-color: rgba(240, 248, 255, 0.9); /* Fondo semitransparente */
+    border-radius: 10px;
+    padding: 20px 40px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3); /* Sombra para resaltar el cuadro */
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+}
+
+.welcome-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #003366; /* Color del título */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.input-field {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    width: 100%;
+    border: 2px solid #ddd;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.edit-button {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    width: 100%;
+    color: #007bff;
+    background-color: transparent;
+    border: 2px solid #007bff;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.5);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.05);
+}
+
+.logoutt-button {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    width: 100%;
+    color: #007bff;
+    background-color: transparent;
+    border: 2px solid #007bff;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.5);
+}
+
+.logoutt-button:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.05);
+}
