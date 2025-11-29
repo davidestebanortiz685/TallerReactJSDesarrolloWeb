@@ -1,0 +1,104 @@
+.admin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+  }
+  
+  
+  .admin-form {
+    background-color: rgba(240, 248, 255, 0.9); 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 350px; 
+    width: 100%;
+    margin: auto;
+  }
+  
+  
+  .welcome-title {
+    font-size: 1.6rem; 
+    font-weight: bold;
+    color: #003366; 
+    margin-bottom: 10px; 
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+  }
+  
+  
+  .welcome-message {
+    font-size: 0.9rem; 
+    color: #666;
+    margin-bottom: 20px; 
+  }
+  
+  
+  .admin-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    margin-bottom: 15px;
+  }
+  
+  
+  .admin-button {
+    background-color: transparent;
+    color: #007bff;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.9rem; 
+    border: 2px solid #007bff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.5);
+  }
+  
+  .admin-button:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  
+  .logout-button {
+    background-color: transparent;
+    color: #ff6f61;
+    padding: 8px; 
+    border: 2px solid #ff6f61;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #ff6f61;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  
+  @media (max-width: 768px) {
+    .admin-form {
+      padding: 15px;
+      max-width: 300px; 
+    }
+  
+    .admin-button {
+      font-size: 0.8rem;
+      padding: 6px;
+    }
+  
+    .logout-button {
+      font-size: 0.8rem;
+    }
+  }
